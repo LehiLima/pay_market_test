@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hex Transparency
+      100% — FF
+      95% — F2
+      90% — E6
+      85% — D9
+      80% — CC
+      75% — BF
+      70% — B3
+      65% — A6
+      60% — 99
+      55% — 8C
+      50% — 80
+      45% — 73
+      40% — 66
+      35% — 59
+      30% — 4D
+      25% — 40
+      20% — 33
+      15% — 26
+      10% — 1A
+      5% — 0D
+      0% — 00
+  -->
+    <color name="colorPrimary">#009CDE</color>
+    <color name="status_bar_ficha">#4D7C7C7C</color>
+    <color name="colorPrimaryDark">#3B5998</color>
+    <color name="background_children">#F2F6F7</color>
+    <color name="background_tab_pressed">#1AFFFFFF</color>
+    <color name="bar_button_hover_background">#1A000000</color>
+    <color name="black">#ff000000</color>
+    <color name="black_">#000000</color>
+    <color name="black1">#282828</color>
+    <color name="blue_listing">#00657F</color>
+    <color name="blue_two">#01A3DC</color>
+    <color name="blue_two_fourty">#6601A3DC</color>
+    <color name="branco">#ffffff</color>
+    <color name="cinza">#777777</color>
+    <color name="cinza_claro">#d6d6d6</color>
+    <color name="cinza_dark">#333333</color>
+    <color name="dark_blue2">#1B99C5</color>
+    <color name="dark_gray_font">#4D4D4D</color>
+    <color name="dark_gray_font2">#686868</color>
+    <color name="dark_gray_hint">#8e8e93</color>
+    <color name="colorAccent">#C54016</color>
+    <color name="drawer_divider">#484848</color>
+    <color name="facebook_button_hover_background">#FF2D4B89</color>
+    <color name="filter_button_border">#D2D8D8</color>
+    <color name="filter_button_text_color">#474949</color>
+    <color name="filter_button_unselected_background">#e3e8ec</color>
+    <color name="filter_divider">#c8c7cc</color>
+    <color name="gray">#dedede</color>
+    <color name="gray_background">#E3E8EA</color>
+    <color name="gray_cardview">#E0E0E0</color>
+    <color name="gray_eye">#babdbf</color>
+    <color name="gray_gallery">#444444</color>
+    <color name="gray_list_btn">#B9B9B9</color>
+    <color name="gray_list_btn_pressed">#8C8C8C</color>
+    <color name="gray_listing_top">#5F6261</color>
+    <color name="gray_on_boarding_text">#4A4A4A</color>
+    <color name="gray_point_menu">#A6A6A6</color>
+    <color name="gray_selected">#ededed</color>
+    <color name="gray_transparent">#33F1Eff1</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="gray_two">#7D7D7D</color>
+    <color name="gray_four">#A3A3A3</color>
+    <color name="gray_five">#979797</color>
+    <color name="gray_six">#3C3C3C</color>
+    <color name="gray_seven">#7C7C7C</color>
+    <color name="gray_eight">#999999</color>
+    <color name="gray_nine">#e6e6e6</color>
+    <color name="gray_ten">#33e6e6e6</color>
+    <color name="gray_eleven">#7fe6e6e6</color>
+    <color name="green">#2AA724</color>
+    <color name="green_pressed">#36c82f</color>
+    <color name="green_pressed_btn_contact">#4caf50</color>
+    <color name="green_preview_listing">#07b313</color>
+    <color name="green_search_end">#FF4DA324</color>
+    <color name="green_search_start">#FF1D9020</color>
+    <color name="laranja">#ffbb33</color>
+    <color name="light_black">#383838</color>
+    <color name="light_blue_pressed">#30D5ED</color>
+    <color name="light_gray">#9FA2A4</color>
+    <color name="light_gray_2">#616161</color>
+    <color name="light_gray_3">#d2d8db</color>
+
+    <color name="light_green">#3099A0</color>
+    <color name="light_green_2">#21CBA7</color>
+    <color name="light_orange">#FF7443</color>
+    <color name="light_purple">#BF74EB</color>
+    <color name="limpar_background">#cccccc</color>
+    <color name="list_header">#ebebeb</color>
+    <color name="new_listing_grass_color">#0a8f08</color>
+    <color name="new_listing_sky_color">#00BCD4</color>
+    <color name="orange">#FF5A00</color>
+    <color name="orange_onboard_btn">#FA5D00</color>
+    <color name="orange_disable">#40FA5D00</color>
+    <color name="purple">#7200DD</color>
+    <color name="red">#D41D1D</color>
+    <color name="red_pressed">#e43d38</color>
+    <color name="suggestion_hint_cinza">#6a6a6a</color>
+    <color name="tarja_transparente">#88000000</color>
+    <color name="transparent_dark_blue">#ee007AA5</color>
+    <color name="transparent_forty_black">#66000000</color>
+    <color name="transparent_seventy_black">#B3000000</color>
+    <color name="transparent_sixty_black">#99000000</color>
+    <color name="transparent_twenty_black">#33000000</color>
+    <color name="white_cardview">#FAFAFA</color>
+    <color name="white_transparent_ninety">#e6ffffff</color>
+    <color name="yellow_listing">#BFB007</color>
+    <color name="cinza_borda_circular">#969696</color>
+    <color name="cinza_salvar_filtro">#dddddd</color>
+    <color name="cinza_escuro">#aaa</color>
+    <color name="azul_tutorial">#007dae</color>
+    <color name="azul_escuro_tutorial">#0079a8</color>
+    <color name="distrato_oportunidade">#CC9900</color>
+    <color name="azul_tab_pois">#bbe8f5</color>
+    <color name="transparencia_widget">#77000000</color>
+    <color name="blue_out_balloon">#0199DE</color>
+    <color name="chat_top_line_grey">#DEDEDE</color>
+    <color name="chat_bold_grey">#444444</color>
+    <color name="chat_grey">#8C8C8C</color>
+    <color name="chat_grey_2">#989898</color>
+    <color name="chat_black">#0E0E0E</color>
+    <color name="white">#fff</color>
+    <color name="chat_fab_grey">#494441</color>
+    <color name="background_loader">#80000000</color>
+    <color name="light_orange_2">#fe965e</color>
+    <color name="primary_dark_blue">#0d6483</color>
+    <color name="accent_color">#00ADC6</color>
+    <color name="ripple_gray">#F1Eff1</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

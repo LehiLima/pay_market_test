@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+            app:startDestination="@id/AmountFragment">
+
+    <fragment android:id="@+id/AmountFragment" android:name="com.example.mercadolivretest.amount.AmountFragment"
+              android:label="fragment_amount" tools:layout="@layout/fragment_amount">
+        <action android:id="@+id/action_next_step" app:destination="@id/paymentMethod"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left" />
+        <argument android:name="amountValue" android:defaultValue="0.0" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/paymentMethod" android:name="com.example.mercadolivretest.paymentmethod.PaymentMethodFragment"
+              android:label="fragment_payment_method" tools:layout="@layout/fragment_payment_method">
+        <action android:id="@+id/action_next_step"
+                app:destination="@id/cardIssuersFragment" app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+        <argument android:name="id" android:defaultValue='"visa"'/>
+        <argument android:name="amountValue" android:defaultValue="0.0" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/cardIssuersFragment" android:name="com.example.mercadolivretest.cardissuers.CardIssuersFragment"
+              android:label="fragment_card_issuers" tools:layout="@layout/fragment_card_issuers">
+        <action android:id="@+id/action_next_step"
+                app:destination="@id/installmentsFragment" app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+        <argument android:name="paymentMethodId" android:defaultValue="visa" app:argType="string"/>
+        <argument android:name="cardIssuerId" android:defaultValue="288"/>
+        <argument android:name="amountValue" android:defaultValue="0.0" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/installmentsFragment" android:name="com.example.mercadolivretest.installments.InstallmentsFragment"
+              android:label="fragment_installments" tools:layout="@layout/fragment_installments">
+        <action android:id="@+id/action_next_step" app:destination="@id/AmountFragment"
+                app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left"/>
+        <argument android:name="paymentMethodId" android:defaultValue="visa" app:argType="string"/>
+        <argument android:name="cardIssuerId" android:defaultValue="288"/>
+        <argument android:name="amountValue" android:defaultValue="0.0"/>
+        <argument android:name="payerCost" app:argType="com.example.mercadolivretest.model.PayerCost" app:nullable="true"
+                  android:defaultValue="@null"/>
+    </fragment>
+
+</navigation>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MercadoLivreTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toolbar_title_payment_methos">Selecione o cartão</string>
+    <string name="toolbar_title_card_issuers">Selecione o Banco</string>
+    <string name="toolbar_title_installments">Selecione o númeto de parcelas</string>
+    <string name="value_massage">Digite o valor a ser pago</string>
+    <string name="yes">sim</string>
+    <string name="exit">Deseja sair ?</string>
+    <string name="no">Não</string>
+    <string name="lbl_payment_method">Método de pagamento :</string>
+    <string name="lbl_bank">Banco :</string>
+    <string name="lbl_installments">Qtd Parcelas :</string>
+    <string name="lbl_pay_amount">Total da compra :</string>
+    <string name="lbl_total_amount">Total a pagar :</string>
+
+</resources>
+
