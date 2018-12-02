@@ -29,7 +29,7 @@ import java.util.*
 
 import timber.log.Timber
 
-class CardIssuersViewModel(context: Application, private val payMarketRepository: PayMarketRepository) : AndroidViewModel(context) {
+open class CardIssuersViewModel(context: Application, private val payMarketRepository: PayMarketRepository) : AndroidViewModel(context) {
 
     private val mContext: Context
 
@@ -37,7 +37,7 @@ class CardIssuersViewModel(context: Application, private val payMarketRepository
         mContext = context.applicationContext
     }
 
-    fun loadPaymentMethod(callback: PayMarketDataSource.CardIssuersCallback,  paymentMethodId : String ) {
+    fun loadCardIdduers(callback: PayMarketDataSource.CardIssuersCallback,  paymentMethodId : String ) {
         payMarketRepository.getCardIssuers(object : PayMarketDataSource.CardIssuersCallback {
             override fun onCardIssuersLoaded(cardIssuers: MutableList<CardIssuer>?) {
                 callback.onCardIssuersLoaded(cardIssuers)

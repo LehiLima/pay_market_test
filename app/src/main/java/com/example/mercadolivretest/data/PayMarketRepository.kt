@@ -23,7 +23,7 @@ import com.example.mercadolivretest.model.PaymentMethod
 import javax.inject.Singleton
 
 @Singleton
-class PayMarketRepository// Prevent direct instantiation.
+open class PayMarketRepository// Prevent direct instantiation.
 private constructor(private val payMarketDataSource: PayMarketDataSource) : PayMarketDataSource {
 
     override fun getPaymentMethod(callback: PayMarketDataSource.PaymentMethodCallback) {

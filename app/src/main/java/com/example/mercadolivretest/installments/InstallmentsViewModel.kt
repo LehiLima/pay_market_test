@@ -30,7 +30,7 @@ import java.util.*
 
 import timber.log.Timber
 
-class InstallmentsViewModel(context: Application, private val payMarketRepository: PayMarketRepository) : AndroidViewModel(context) {
+open class InstallmentsViewModel(context: Application, private val payMarketRepository: PayMarketRepository) : AndroidViewModel(context) {
 
     private val mContext: Context
 

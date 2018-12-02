@@ -65,7 +65,7 @@ class CardIssuersFragment : DaggerFragment() {
 
     private fun getCardIssuers() {
         Timber.w("getCardIssuers")
-        cardIssuersViewModel?.loadPaymentMethod(object : PayMarketDataSource.CardIssuersCallback {
+        cardIssuersViewModel?.loadCardIdduers(object : PayMarketDataSource.CardIssuersCallback {
             override fun onCardIssuersLoaded(cardIssuers: List<CardIssuer>) {
                 Timber.w("onCardIssuersLoaded")
                 progressBarCardIssuers.visibility = View.GONE
