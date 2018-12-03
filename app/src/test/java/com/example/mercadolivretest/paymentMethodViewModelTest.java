@@ -31,6 +31,8 @@ import static org.powermock.api.mockito.PowerMockito.mockStatic;
 @PrepareForTest({TextUtils.class})
 public class paymentMethodViewModelTest {
 
+    //https://github.com/googlesamples/android-architecture/tree/todo-mvvm-live-kotlin/todoapp
+
     @Mock
     private Application mContext;
 
