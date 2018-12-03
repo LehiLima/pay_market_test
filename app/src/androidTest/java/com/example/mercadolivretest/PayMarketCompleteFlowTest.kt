@@ -57,7 +57,7 @@ class PayMarketCompleteFlowTest {
                 , 0), 2), isDisplayed()))
         appCompatButton.perform(click())
 
-        sleep(200)
+        sleep(1000)
 
         onView(withId(R.id.payment_method_list_rv)).check(matches(isDisplayed()))
 
@@ -71,7 +71,7 @@ class PayMarketCompleteFlowTest {
          )
          recyclerView.perform(actionOnItemAtPosition<ViewHolder>(1, click()))
 
-         sleep(100)
+         sleep(350)
 
          onView(withId(R.id.card_issuers_list_rv)).check(matches(isDisplayed()))
 
