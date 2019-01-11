@@ -10,5 +10,9 @@ data class Bin (
     var installmentsPattern: String? = null,
     @SerializedName("exclusion_pattern")
     @Expose
-    var exclusionPattern: Any? = null
+    var exclusionPattern: Any? = null,
+    @SerializedName("exclusion_pattern")
+    @Expose
+    var exclusionPatterne: Any? = null
+
 )
